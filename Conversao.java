@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class Conversao {
     public String conversao(int opcao, String moeda, double valorEscolhido){
-        URI conversao = URI.create("https://v6.exchangerate-api.com/v6/56406095857fab30c6c095cf/latest/" + moeda);
+        URI conversao = URI.create("https://v6.exchangerate-api.com/v6/INCLUA AQUI SUA KEY/latest/" + moeda);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(conversao)
