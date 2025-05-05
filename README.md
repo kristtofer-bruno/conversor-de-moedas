@@ -32,7 +32,7 @@
 <h2>⚙️ Como Executar</h2>
 <li>Clone este repositório.</li>
 <li>Abra o projeto em sua IDE Java de sua preferência. <a href="https://www.jetbrains.com/pt-br/idea/">IDE utilizada</a> para criar o projeto.</li>
-<li>Substitua a chave de API na URL da classe `Conversao.java` com sua chave pessoal da <a href="https://www.exchangerate-api.com/">ExchangeRate-API</a>.</li>
+<li>Substitua a chave de API na URL da classe `Conversao.java` com sua chave pessoal da <a href="https://www.exchangerate-api.com/">ExchangeRate-API</a>. Caso não tenha uma chave terá que criar no site.</li>
 <li>A URL desta linha: 
 
 `URI conversao = URI.create("https://v6.exchangerate-api.com/v6/SUA API KEY AQUI/latest/" + moeda);`
