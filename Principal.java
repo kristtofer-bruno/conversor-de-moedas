@@ -13,16 +13,22 @@ public class Principal {
             System.out.println("1) Dólar =>> Real brasileiro");
             System.out.println("2) Dólar =>> Peso argentino");
             System.out.println("3) Dólar =>> Peso colombiano");
-            System.out.println("4) Real brasieliro =>> Dólar");
-            System.out.println("5) Peso argentino =>> Dólar");
-            System.out.println("6) Peso colombiano =>> Dólar");
-            System.out.println("7) Sair");
+            System.out.println("4) Dólar =>> Euro");
+            System.out.println("5) Dólar =>> Rublo Russo");
+            System.out.println("6) Dólar =>> Iene");
+            System.out.println("7) Real brasileiro =>> Dólar");
+            System.out.println("8) Peso argentino =>> Dólar");
+            System.out.println("9) Peso colombiano =>> Dólar");
+            System.out.println("10) Euro =>> Dólar");
+            System.out.println("11) Rublo Russo =>> Dólar");
+            System.out.println("12) Iene =>> Dólar");
+            System.out.println("0) SAIR");
             System.out.println("\nEscolha uma opção válida: ");
             System.out.println("--------------------------------------------------");
             Scanner sc = new Scanner(System.in);
             opcao = sc.nextInt();
-            if (opcao == 7) {
-                System.out.println("Programa finalizado com sucesso!");
+            if (opcao == 0) {
+                System.out.println("Saindo do programa...");
                 break;
             }
             OpcoesDeMoedas opcoes = new OpcoesDeMoedas();
@@ -34,7 +40,7 @@ public class Principal {
             Conversao conversao = new Conversao();
             System.out.println(conversao.conversao(opcao, moeda, valorEscolhido));
 
-        } while (opcao != 7);
+        } while (opcao != 0);
 
 
     }
