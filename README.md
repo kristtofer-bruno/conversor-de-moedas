@@ -13,7 +13,7 @@
 - `Funcionalidade 4`: Conversão entre Dólar (USD) e Euro (EUR)
 - `Funcionalidade 5`: Conversão entre Dólar (USD) e Rubllo Russo (RUB)
 - `Funcionalidade 6`: Conversão entre Dólar (USD) e Iene (JPY)
-- `Funcionalidade 7a,b,c,d,e,f`: Conversão entre Real (BRL), Peso Argentino (ARS), Peso Colombiano (COP), Euro (EUR), Rubllo Russo (RUB) e Iene (JPY) para Dólar (USD)
+- `Funcionalidade 7a,b,c,d,e,f`: Conversão entre Real (BRL), Peso Argentino (ARS), Peso Colombiano (COP), Euro (EUR), Rublo Russo (RUB) e Iene (JPY) para Dólar (USD)
 
 <h2>💻 Como Usar</h2>
  <p>Execute o programa Principal.java </p>
@@ -31,13 +31,28 @@
 
 <h2>⚙️ Como Executar</h2>
 <li>Clone este repositório.</li>
+<li>
+  Baixe e instale o Java JDK (Java Development Kit) para compilar e executar o programa Java.
+  <ul>
+    <li>Acesse: <a href="https://www.oracle.com/java/technologies/javase-downloads.html">oracle.com/java</a></li>
+    <li>Baixe a versão LTS (ex: JDK 21)</li>
+    <li>Instale normalmente clicando no instalador</li>
+    <li>Depois, abra o terminal e digite: <code>java -version</code></li>
+    <ul>
+      Se aparecer o nome java e a versão, ocorreu tudo certo.
+    </ul>
+  </ul>
+</li>
 <li>Abra o projeto em sua IDE Java de sua preferência. <a href="https://www.jetbrains.com/pt-br/idea/">IDE utilizada</a> para criar o projeto.</li>
 <li>Substitua a chave de API na URL da classe `Conversao.java` com sua chave pessoal da <a href="https://www.exchangerate-api.com/">ExchangeRate-API</a>. Caso não tenha uma chave terá que criar no site.</li>
-<li>A URL desta linha: 
+<li>Altere a URL desta linha: 
 
 `URI conversao = URI.create("https://v6.exchangerate-api.com/v6/SUA API KEY AQUI/latest/" + moeda);`
 </li>
 <li>Baixe do site <a href="https://mvnrepository.com/artifact/com.google.code.gson/gson">MVN Repository</a> o arquivo JAR (Java ARchive) mais recente, nele contém a biblioteca Gson empacotada para utilizar no projeto Java.</li>
+  <ul>
+    <li>Inclua na estrutura do projeto o arquivo .jar.</li>
+  </ul>
 <li>Compile e execute o projeto.</li>
 
 <h2>🔡 Dependências</h2>
