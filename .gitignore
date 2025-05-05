@@ -1,0 +1,14 @@
+# Ignorar arquivos compilados e diretórios de build
+*.class
+/out/
+*.jar
+
+# Ignorar configurações específicas de IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
