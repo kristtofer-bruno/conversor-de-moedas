@@ -30,7 +30,7 @@
 
 
 <h2>⚙️ Como Executar</h2>
-<li>Clone este repositório.</li>
+<li>Clone este repositório ou baixe o arquivo zip.</li>
 <li>
   Baixe e instale o Java JDK (Java Development Kit) para compilar e executar o programa Java.
   <ul>
