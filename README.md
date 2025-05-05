@@ -1,7 +1,7 @@
 <h1 align="center"> Projeto Conversor de Moedas 🪙💱</h1>
 
 <p>
-  Este é um projeto de conversor de moedas desenvolvido em Java, e que utiliza a API de taxa de câmbio da <a href="https://www.exchangerate-api.com/">ExchangeRate-API</a> para realizar conversões entre diferentes moedas (dólar, real, peso argentino, e peso colombiano).
+  Este é um projeto de conversor de moedas desenvolvido em Java, e que utiliza a API de taxa de câmbio da <a href="https://www.exchangerate-api.com/">ExchangeRate-API</a> para realizar conversões entre diferentes moedas (dólar, real, peso argentino, peso colombiano, Euro, Rublo Russo e Iene).
   O sistema exibe um menu para o usuário escolher qual conversão deseja realizar e, em seguida, solicita o valor a ser convertido. A conversão é feita com base nas taxas de câmbio atuais.
 </p>
 
