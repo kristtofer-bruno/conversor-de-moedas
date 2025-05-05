@@ -12,12 +12,17 @@ public class OpcaoDeMoedasConvertida extends OpcoesDeMoedas{
                 return "COP";
 
             case 4:
-                return "USD";
-
+                return "EUR";
             case 5:
-                return "USD";
-
+                return "RUB";
             case 6:
+                return "JPY";
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+            case 12:
                 return "USD";
             default:
                 throw new IllegalStateException("Unexpected value: " + esc);

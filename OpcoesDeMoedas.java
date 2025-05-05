@@ -2,22 +2,30 @@ public class OpcoesDeMoedas {
     public String escolha(int esc){
         switch (esc){
             case 1:
-                return "USD";
-
             case 2:
-                return "USD";
-
             case 3:
+            case 4:
+            case 5:
+            case 6:
                 return "USD";
 
-            case 4:
+            case 7:
                 return "BRL";
 
-            case 5:
+            case 8:
                 return "ARS";
 
-            case 6:
+            case 9:
                 return "COP";
+
+            case 10:
+                return "EUR";
+
+            case 11:
+                return "RUB";
+
+            case 12:
+                return "JPY";
             default:
                 throw new IllegalStateException("Unexpected value: " + esc);
         }
